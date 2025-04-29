@@ -9,10 +9,10 @@ Tested on Rocky Linux, with Python 3.10, PyTorch 2.1.1, NVIDIA 2080.
 [TD4PWMR]
 [google](https://drive.google.com/file/d/1XxrY23r7UbniAX2mKgi7NvCLt9buQDGd/view?usp=drive_link)
 
-## ___step 2. Training
+## ___step 2. Training___
 
 python yolo-thermal_training.py
 
-## ___step 3. Evaluation
+## ___step 3. Evaluation___
 
 python yolo-thermal_evaluate.py
