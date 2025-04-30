@@ -2,17 +2,48 @@
 
 Tested on Rocky Linux, with Python 3.10, PyTorch 2.1.1, NVIDIA 2080.
 
-## ___step 1.  DATA Preparation___   
+### Environment Settings 
+* **Install environment using conda**
+```
+conda create -n yolo_thermal python=3.10.13
+conda activate yolo_thermal
+```
 
-*Download the datasets and put them to './data'.*
+ * **Install the package for Vim**
+```
+pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+```
 
+### Download Dataset  
+Download tracking datasets
 [TD4PWMR]
 [google](https://drive.google.com/file/d/1XxrY23r7UbniAX2mKgi7NvCLt9buQDGd/view?usp=drive_link)
 
-## ___step 2. Training___
+put it in `./data`.
 
-python yolo-thermal_training.py
+### Download Trained Weights for Model
+Download the trained model weights from [yolo-thermal.pt](https://drive.google.com/file/d/1tyC8yvdaBvCB7hi_4ul7vG62YtU_Pg-Y/view?usp=drive_link) and put it under `./weights` for test directly.
 
-## ___step 3. Evaluation___
+### Training and Testing Script 
 
+```
+# train
+python yolo-thermal_train.py
+
+
+# evaluate
 python yolo-thermal_evaluate.py
+```
+
+## Citation
+Please kindly cite the papers if the code and dataset are useful and helpful for your research.
+
+    @misc{Ni2024,
+        title={Thermal Detection of People with Mobility Restrictions for Barrier Reduction at Traffic Lights Controlled Intersections},
+        author={Xiao Ni and Carsten Kuehnel and Xiaoyi Jiang},
+        year={2025},
+        eprint={?},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+    }
