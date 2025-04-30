@@ -9,7 +9,7 @@ conda create -n yolo_thermal python=3.10.13
 conda activate yolo_thermal
 ```
 
- * **Install the package for Vim**
+ * **Install the package**
 ```
 pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
