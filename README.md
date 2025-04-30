@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ```
 
 ### Download Dataset  
-Download tracking datasets
+Download thermal dataset for people with mobility restrictions
 [TD4PWMR](https://drive.google.com/file/d/1XxrY23r7UbniAX2mKgi7NvCLt9buQDGd/view?usp=drive_link)
 
 put it in `./data`.
