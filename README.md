@@ -16,13 +16,10 @@ pip install -r requirements.txt
 ```
 
 ### Download Dataset  
-Download thermal dataset for people with mobility restrictions
-[TD4PWMR](https://drive.google.com/file/d/1XxrY23r7UbniAX2mKgi7NvCLt9buQDGd/view?usp=drive_link)
-
-put it in `./data`.
+Download thermal dataset for people with mobility restrictions [TD4PWMR] from [Google Drive](https://drive.google.com/file/d/1XxrY23r7UbniAX2mKgi7NvCLt9buQDGd/view?usp=drive_link) or [BaiduYun Drive](https://pan.baidu.com/s/1NcgpMxGXrw6q4PoQCfcoaA?pwd=3650) (Extraction code: 3650) and put it under `./data`.
 
 ### Download Trained Weights for Model
-Download the trained model weights from [yolo-thermal.pt](https://drive.google.com/file/d/1tyC8yvdaBvCB7hi_4ul7vG62YtU_Pg-Y/view?usp=drive_link) and put it under `./weights` for test directly.
+Download the trained model weights [yolo-thermal.pt] from [Google Drive](https://drive.google.com/file/d/1tyC8yvdaBvCB7hi_4ul7vG62YtU_Pg-Y/view?usp=drive_link) or [BaiduYun Drive](https://pan.baidu.com/s/1iYnbOF_bZBlDR8k_EVJFNA?pwd=3650) (Extraction code: 3650) and put it under `./weights` for test directly.
 
 ### Training and Testing Script 
 
