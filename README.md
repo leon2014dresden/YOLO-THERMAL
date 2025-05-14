@@ -35,11 +35,12 @@ python yolo-thermal_evaluate.py
 ## Citation
 Please kindly cite the papers if the code and dataset are useful and helpful for your research.
 
-    @misc{Ni2024,
-        title={Thermal Detection of People with Mobility Restrictions for Barrier Reduction at Traffic Lights Controlled Intersections},
-        author={Xiao Ni and Carsten Kuehnel and Xiaoyi Jiang},
-        year={2025},
-        eprint={?},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV}
-    }
+@misc{ni2025thermaldetectionpeoplemobility,
+      title={Thermal Detection of People with Mobility Restrictions for Barrier Reduction at Traffic Lights Controlled Intersections}, 
+      author={Xiao Ni and Carsten Kuehnel and Xiaoyi Jiang},
+      year={2025},
+      eprint={2505.08568},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.08568}, 
+}
