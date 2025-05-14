@@ -33,7 +33,7 @@ python yolo-thermal_evaluate.py
 ```
 
 ## Citation
-Please kindly cite the papers if the code and dataset are useful and helpful for your research.
+Please kindly cite the paper if the code and dataset are useful and helpful for your research.
 
     @misc{ni2025thermaldetectionpeoplemobility,
         title={Thermal Detection of People with Mobility Restrictions for Barrier Reduction at Traffic Lights Controlled Intersections}, 
